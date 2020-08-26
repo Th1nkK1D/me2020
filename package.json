@@ -6,13 +6,15 @@
     "dev": "rollup -c -w",
     "start": "sirv public",
     "validate": "svelte-check",
-    "format": "prettier --write --plugin-search-dir=. ./**/*.{html,svelte,ts,json}"
+    "format": "prettier --write --plugin-search-dir=. ./**/*.{html,svelte,ts,js,json}"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^14.0.0",
     "@rollup/plugin-node-resolve": "^8.0.0",
     "@rollup/plugin-typescript": "^4.0.0",
     "@tsconfig/svelte": "^1.0.0",
+    "postcss": "^7.0.32",
+    "postcss-load-config": "^2.1.0",
     "prettier": "^2.1.1",
     "prettier-plugin-svelte": "^1.1.1",
     "rollup": "^2.3.4",
@@ -21,11 +23,13 @@
     "rollup-plugin-terser": "^7.0.0",
     "svelte": "^3.0.0",
     "svelte-check": "^1.0.0",
-    "svelte-preprocess": "^4.0.0",
+    "svelte-preprocess": "^4.1.1",
+    "tailwindcss": "^1.7.3",
     "tslib": "^2.0.0",
     "typescript": "^3.9.3"
   },
   "dependencies": {
+    "@fullhuman/postcss-purgecss": "^2.3.0",
     "sirv-cli": "^1.0.0"
   }
 }

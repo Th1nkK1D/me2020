@@ -15,7 +15,6 @@ jobs:
       - name: Build 🔧
         run: |
           npm run build
-          cp CNAME public/CNAME
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:

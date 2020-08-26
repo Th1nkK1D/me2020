@@ -12,7 +12,9 @@
   <h1 class="text-4xl text-orange-700">Hello {name}!</h1>
   <p>
     Visit the
-    <a href="https://svelte.dev/tutorial" class="text-blue-700 hover:underline">Svelte tutorial</a>
+    <a href="https://svelte.dev/tutorial" class="text-blue-700 hover:underline">
+      Svelte tutorial
+    </a>
     to learn how to build Svelte apps.
   </p>
 </main>

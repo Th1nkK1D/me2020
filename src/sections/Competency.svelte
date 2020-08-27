@@ -10,7 +10,10 @@
   <Heading2>Competency</Heading2>
   <div class="grid grid-cols-1 md:grid-cols-11 gap-4">
     <div class="md:col-span-5">
-      <CompetencyItemContainer color="green">
+      <CompetencyItemContainer
+        containerBackground="bg-green-100"
+        iconBackground="bg-green-300"
+      >
         <span slot="icon">
           <AwardIcon />
         </span>
@@ -30,7 +33,10 @@
       </CompetencyItemContainer>
     </div>
     <div class="md:col-span-6">
-      <CompetencyItemContainer color="blue">
+      <CompetencyItemContainer
+        containerBackground="bg-blue-100"
+        iconBackground="bg-blue-300"
+      >
         <span slot="icon">
           <BookIcon />
         </span>
@@ -46,7 +52,10 @@
       </CompetencyItemContainer>
     </div>
     <div class="md:col-span-11">
-      <CompetencyItemContainer color="red">
+      <CompetencyItemContainer
+        containerBackground="bg-red-100"
+        iconBackground="bg-red-300"
+      >
         <span slot="icon">
           <StarIcon />
         </span>

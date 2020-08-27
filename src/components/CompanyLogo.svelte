@@ -5,5 +5,5 @@
 </script>
 
 <a href="{url}" target="_blank">
-  <img src="{`/images/${image}`}" alt="{name}" class="w-10" />
+  <img src="{`./images/${image}`}" alt="{name}" class="w-10" />
 </a>

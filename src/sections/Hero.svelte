@@ -1,5 +1,6 @@
 <script lang="ts">
   import AnimatedAvatar from '../components/AnimatedAvatar.svelte'
+  import Heading1 from '../typography/Heading1.svelte'
 </script>
 
 <section class="min-h-screen flex">
@@ -11,11 +12,11 @@
       <AnimatedAvatar />
     </div>
     <div class="flex-1 flex flex-col space-y-8 justify-center">
-      <h1>
+      <Heading1>
         Withee
         <br />
         Poositasai
-      </h1>
+      </Heading1>
       <p>An indie developer and generalist enthuthism</p>
       <svg
         xmlns="http://www.w3.org/2000/svg"

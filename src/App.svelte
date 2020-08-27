@@ -1,13 +1,11 @@
 <script lang="ts">
   import AnimatedAvatar from './components/AnimatedAvatar.svelte'
+  import Tailwindcss from './styles/Tailwindcss.svelte'
 </script>
 
-<style global>
-  @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
-</style>
-
 <main>
+  <Tailwindcss />
   <AnimatedAvatar />
+  <h1>Display</h1>
+  <p>Body</p>
 </main>

@@ -4,6 +4,7 @@
   import Competency from './sections/Competency.svelte'
   import WorkExperience from './sections/WorkExperience.svelte'
   import Showcase from './sections/Showcase.svelte'
+  import Contact from './sections/Contact.svelte'
 </script>
 
 <main class="max-w-screen-lg mx-auto px-6">
@@ -13,5 +14,6 @@
     <Competency />
     <WorkExperience />
     <Showcase />
+    <Contact />
   </div>
 </main>

@@ -5,7 +5,7 @@
 
 <section class="min-h-screen flex">
   <div
-    class="flex flex-col text-center p-10 space-y-8 md:space-y-0 md:space-x-16
+    class="flex flex-col text-center space-y-8 md:space-y-0 md:space-x-16
     my-auto w-full md:flex-row md:text-left"
   >
     <div class="flex-1">

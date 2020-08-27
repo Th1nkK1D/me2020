@@ -3,6 +3,7 @@
   import Hero from './sections/Hero.svelte'
   import Competency from './sections/Competency.svelte'
   import WorkExperience from './sections/WorkExperience.svelte'
+  import Showcase from './sections/Showcase.svelte'
 </script>
 
 <main class="max-w-screen-lg mx-auto px-6">
@@ -11,5 +12,6 @@
   <div class=" space-y-24 md:space-y-32">
     <Competency />
     <WorkExperience />
+    <Showcase />
   </div>
 </main>

@@ -8,7 +8,7 @@
 
 <section>
   <Heading2>Competency</Heading2>
-  <div class="grid grid-cols-1 md:grid-cols-11 gap-4">
+  <div class="grid grid-cols-1 md:grid-cols-11 gap-4 md:gap-6">
     <div class="md:col-span-5">
       <CompetencyItemContainer
         containerBackground="bg-green-100"

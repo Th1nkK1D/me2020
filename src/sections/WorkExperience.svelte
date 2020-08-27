@@ -1,13 +1,12 @@
 <script lang="ts">
   import Heading2 from '../typography/Heading2.svelte'
-  import Heading4 from '../typography/Heading4.svelte'
   import CompanyLogo from '../components/CompanyLogo.svelte'
   import WorkItemContainer from '../components/WorkItemContainer.svelte'
 </script>
 
 <section>
   <Heading2>Work Experience</Heading2>
-  <div class="grid gap-4 md:grid-cols-11">
+  <div class="grid gap-4 md:gap-6 md:grid-cols-11">
     <div class="md:col-span-4">
       <WorkItemContainer heading="Full-time developer consultant" year="{1}">
         <CompanyLogo

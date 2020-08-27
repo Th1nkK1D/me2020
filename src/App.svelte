@@ -1,11 +1,9 @@
 <script lang="ts">
-  import AnimatedAvatar from './components/AnimatedAvatar.svelte'
   import Tailwindcss from './styles/Tailwindcss.svelte'
+  import Hero from './sections/Hero.svelte'
 </script>
 
-<main>
+<main class="max-w-screen-lg mx-auto">
   <Tailwindcss />
-  <AnimatedAvatar />
-  <h1>Display</h1>
-  <p>Body</p>
+  <Hero />
 </main>

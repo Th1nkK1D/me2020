@@ -1,4 +1,4 @@
-<style global>
+<style global lang="scss">
   @tailwind base;
 
   body {
@@ -6,7 +6,7 @@
   }
 
   h1 {
-    @apply font-display font-bold text-6xl;
+    @apply font-display font-bold text-6xl leading-none;
   }
 
   h2 {

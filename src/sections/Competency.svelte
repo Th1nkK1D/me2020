@@ -6,7 +6,7 @@
   import CompetencyItemContainer from '../components/CompetencyItemContainer.svelte'
 </script>
 
-<section class="flex flex-col">
+<section>
   <Heading2>Competency</Heading2>
   <div class="grid grid-cols-1 md:grid-cols-11 gap-4">
     <div class="md:col-span-5">
@@ -16,8 +16,16 @@
         </span>
         <span slot="heading">Main Expertise</span>
         <ul slot="content">
-          <li>- Frontend Developer (React, Vue, TypeScript and Jamstack)</li>
-          <li>- Backend Developer (NodeJS and Cloud architecture)</li>
+          <li>
+            -
+            <strong>Responsive Website</strong>
+            (React, Vue, TypeScript and Jamstack)
+          </li>
+          <li>
+            -
+            <strong>Backend Service</strong>
+            (NodeJS and Cloud architecture)
+          </li>
         </ul>
       </CompetencyItemContainer>
     </div>

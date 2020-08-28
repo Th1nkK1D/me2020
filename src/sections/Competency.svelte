@@ -46,7 +46,7 @@
           <li>- Game design & development</li>
           <li>- UI, UX, Graphic and Animation</li>
           <li>- Vitualization & Machine learning</li>
-          <li>- Mathermatic/Physics simulation</li>
+          <li>- Mathematics/Physics simulation</li>
         </ul>
       </CompetencyItemContainer>
     </div>

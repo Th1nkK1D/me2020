@@ -17,7 +17,7 @@
         <br />
         Poositasai
       </Heading1>
-      <p>An indie developer and generalist enthuthism</p>
+      <p>An indie developer and generalist enthusiasm</p>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"

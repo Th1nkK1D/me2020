@@ -18,7 +18,7 @@
           <AwardIcon />
         </span>
         <span slot="heading">Main Expertise</span>
-        <ul slot="content">
+        <ul slot="content" class="space-y-1">
           <li>
             -
             <strong>Responsive Website</strong>
@@ -41,13 +41,12 @@
           <BookIcon />
         </span>
         <span slot="heading">Some Experience</span>
-        <ul slot="content">
-          <li>- Agile, Design thinking and TDD</li>
+        <ul slot="content" class="space-y-1">
+          <li>- Agile, CI/CD and TDD</li>
           <li>- Game design & development</li>
           <li>- UI, UX, Graphic and Animation</li>
-          <li>- Data vitualization & Machine learning</li>
-          <li>- Mathermatic and Physics simulation</li>
-          <li>- Chatbot</li>
+          <li>- Vitualization & Machine learning</li>
+          <li>- Mathermatic/Physics simulation</li>
         </ul>
       </CompetencyItemContainer>
     </div>

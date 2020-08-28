@@ -8,10 +8,10 @@
     class="flex flex-col text-center space-y-8 md:space-y-0 md:space-x-16
     my-auto w-full md:flex-row md:text-left"
   >
-    <div class="flex-1">
+    <div class="flex-1 px-12 md:px-0">
       <AnimatedAvatar />
     </div>
-    <div class="flex-1 flex flex-col space-y-8 justify-center">
+    <div class="flex-1 flex flex-col space-y-8 justify-center max">
       <Heading1>
         Withee
         <br />

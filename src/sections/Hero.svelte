@@ -17,7 +17,11 @@
         <br />
         Poositasai
       </Heading1>
-      <p>An indie developer and generalist enthusiasm</p>
+      <p>
+        An indie developer and generalist enthusiasm
+        <br />
+        who value a meaningful impact.
+      </p>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"
@@ -25,12 +29,13 @@
         viewBox="0 0 24 24"
         fill="none"
         stroke="currentColor"
-        stroke-width="1.5"
+        stroke-width="2"
         stroke-linecap="round"
         stroke-linejoin="round"
-        class="mx-auto md:mx-0"
+        class="text-gray-400 mx-auto md:mx-0"
       >
-        <polyline points="6 9 12 15 18 9"></polyline>
+        <line x1="12" y1="5" x2="12" y2="19"></line>
+        <polyline points="19 12 12 19 5 12"></polyline>
       </svg>
     </div>
   </div>

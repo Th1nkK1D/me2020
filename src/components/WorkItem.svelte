@@ -12,7 +12,7 @@
       <img src="{`./images/${image}`}" alt="{company}" class="w-12 rounded" />
     </a>
   </div>
-  <div class="flex-1">
+  <div class="flex-1 flex flex-col justify-center">
     <p class="font-bold">{company}</p>
     <p>{position}</p>
     <p class="text-xs text-gray-600">{period}</p>

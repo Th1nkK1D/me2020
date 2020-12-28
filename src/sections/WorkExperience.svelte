@@ -8,6 +8,13 @@
 
   const works = [
     {
+      company: 'Punch Up',
+      position: 'Frontend Developer',
+      period: 'Nov 2020 - Now',
+      image: 'punchup.png',
+      link: 'https://punchup.world/',
+    },
+    {
       company: 'Thoughtworks',
       position: 'Developer Consultant',
       period: 'Aug 2019 - Aug 2020',
@@ -49,13 +56,16 @@
   <Heading2>Work Experience</Heading2>
 
   <div class="grid gap-4 md:gap-6 md:grid-cols-3">
-    {#each works as work}
-      <WorkItem {...work} />
-    {/each}
-
-    <div class="rounded-lg px-6 py-4 text-center md:text-left">
+    <div
+      class="rounded-lg px-6 py-4 text-center md:text-right flex flex-col
+      justify-center"
+    >
       <p class="text-2xl font-bold">~{yearsOfTotalExperiences} years</p>
       <p>of total experiences</p>
     </div>
+
+    {#each works as work}
+      <WorkItem {...work} />
+    {/each}
   </div>
 </section>

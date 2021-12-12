@@ -6,6 +6,7 @@
   import Showcase from './sections/Showcase.svelte'
   import Contact from './sections/Contact.svelte'
   import Footer from './sections/Footer.svelte'
+  import Education from './sections/Education.svelte'
 </script>
 
 <main class="max-w-screen-lg mx-auto px-3">
@@ -14,6 +15,7 @@
   <div class=" space-y-24 md:space-y-32">
     <Competency />
     <WorkExperience />
+    <Education />
     <Showcase />
     <Contact />
     <Footer />

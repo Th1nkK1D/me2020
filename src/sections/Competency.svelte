@@ -48,10 +48,10 @@
         <span slot="heading">Related Experiences</span>
         <ul slot="content" class="space-y-1">
           <li>- Agile, CI/CD and TDD</li>
-          <li>- Mobile ppplication with React Native</li>
+          <li>- Mobile application with React Native</li>
           <li>- Docker and Docker Compose</li>
           <li>- Game design & development</li>
-          <li>- User Interface and prototyping</li>
+          <li>- UI designing and prototyping</li>
           <li>- AI & Machine learning</li>
           <li>- Mathematics/Physics simulation</li>
         </ul>

@@ -2,6 +2,13 @@
   import AnimatedAvatar from '../components/AnimatedAvatar.svelte'
   import LocationIcon from '../icons/LocationIcon.svelte'
   import Heading1 from '../typography/Heading1.svelte'
+
+  const scrollDown = () => {
+    window.scrollTo({
+      top: window.innerHeight,
+      behavior: 'smooth',
+    })
+  }
 </script>
 
 <section class="min-h-screen flex">
@@ -27,21 +34,25 @@
         <LocationIcon />
         <p>Growing up in Bangkok, Studying in Tallinn</p>
       </div>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        class="text-gray-400 mx-auto md:mx-0"
+      <button
+        on:click="{scrollDown}"
+        class="text-gray-400 hover:text-gray-600 mx-auto md:ml-0"
       >
-        <line x1="12" y1="5" x2="12" y2="19"></line>
-        <polyline points="19 12 12 19 5 12"></polyline>
-      </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <line x1="12" y1="5" x2="12" y2="19"></line>
+          <polyline points="19 12 12 19 5 12"></polyline>
+        </svg>
+      </button>
     </div>
   </div>
 </section>

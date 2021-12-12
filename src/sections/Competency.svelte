@@ -18,7 +18,7 @@
           <AwardIcon />
         </span>
         <span slot="heading">Main Expertise</span>
-        <ul slot="content" class="space-y-1">
+        <ul slot="content" class="space-y-2">
           <li>
             -
             <strong>Responsive Website</strong>

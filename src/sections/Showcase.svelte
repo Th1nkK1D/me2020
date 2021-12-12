@@ -19,8 +19,7 @@
     },
     {
       title: '112 Story',
-      description:
-        'A storytelling about lèse-majesté law abusement in Thailand',
+      description: 'A storytelling about lèse-majesté law abuse in Thailand',
       image: '112story.jpeg',
       link: 'https://112story.com/',
     },

@@ -11,8 +11,9 @@
   <Heading2 isCentered>Contact Me</Heading2>
   <div class="flex flex-col space-y-4">
     <a href="tel:+37258344505">(+372) 5834 4505</a>
-    <p>Tallinn, Estonia</p>
+
     <a href="mailto:witheep@gmail.com">witheep@gmail.com</a>
+    <p>Born in Bangkok, Studying in Tallinn</p>
   </div>
   <div class="flex flex-row space-x-4 justify-center mt-10">
     <SocialLink link="https://github.com/Th1nkK1D/" alt="Github">

@@ -10,7 +10,8 @@
 <section class="text-center py-12 md:py-18">
   <Heading2 isCentered>Contact Me</Heading2>
   <div class="flex flex-col space-y-4">
-    <a href="tel:+66851255278">(+66) 85 125 5278</a>
+    <a href="tel:+37258344505">(+372) 5834 4505</a>
+    <p>Tallinn, Estonia</p>
     <a href="mailto:witheep@gmail.com">witheep@gmail.com</a>
   </div>
   <div class="flex flex-row space-x-4 justify-center mt-10">

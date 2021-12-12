@@ -1,5 +1,6 @@
 <script lang="ts">
   import AnimatedAvatar from '../components/AnimatedAvatar.svelte'
+  import LocationIcon from '../icons/LocationIcon.svelte'
   import Heading1 from '../typography/Heading1.svelte'
 </script>
 
@@ -22,6 +23,10 @@
         <br />
         who value a meaningful impact.
       </p>
+      <div class="flex flex-row space-x-2 text-gray-600">
+        <LocationIcon />
+        <p>Growing up in Bangkok, Studying in Tallinn</p>
+      </div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"
@@ -39,5 +44,4 @@
       </svg>
     </div>
   </div>
-
 </section>

@@ -8,7 +8,7 @@
   import Footer from './sections/Footer.svelte'
 </script>
 
-<main class="max-w-screen-lg mx-auto px-6">
+<main class="max-w-screen-lg mx-auto px-3">
   <Tailwindcss />
   <Hero />
   <div class=" space-y-24 md:space-y-32">

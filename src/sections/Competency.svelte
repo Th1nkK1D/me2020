@@ -8,8 +8,8 @@
 
 <section>
   <Heading2>Competency</Heading2>
-  <div class="grid grid-cols-1 md:grid-cols-11 gap-4 md:gap-6">
-    <div class="md:col-span-5">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+    <div class="md:col-span-1">
       <CompetencyItemContainer
         containerBackground="bg-green-100"
         iconBackground="bg-green-300"
@@ -22,17 +22,22 @@
           <li>
             -
             <strong>Responsive Website</strong>
-            (React, Vue, TypeScript and Jamstack)
+            using Svelte, React and Vue (TS/JS)
+          </li>
+          <li>
+            -
+            <strong>Data Visualization and Animation</strong>
+            using CSS, SVG, Canvas, D3.js and ThreeJS
           </li>
           <li>
             -
             <strong>Backend Service</strong>
-            (NodeJS and Cloud architecture)
+            with NodeJS and Cloud architecture
           </li>
         </ul>
       </CompetencyItemContainer>
     </div>
-    <div class="md:col-span-6">
+    <div class="md:col-span-1">
       <CompetencyItemContainer
         containerBackground="bg-blue-100"
         iconBackground="bg-blue-300"
@@ -40,17 +45,19 @@
         <span slot="icon">
           <BookIcon />
         </span>
-        <span slot="heading">Some Experience</span>
+        <span slot="heading">Related Experiences</span>
         <ul slot="content" class="space-y-1">
           <li>- Agile, CI/CD and TDD</li>
+          <li>- Mobile ppplication with React Native</li>
+          <li>- Docker and Docker Compose</li>
           <li>- Game design & development</li>
-          <li>- UI, UX, Graphic and Animation</li>
-          <li>- Vitualization & Machine learning</li>
+          <li>- User Interface and prototyping</li>
+          <li>- AI & Machine learning</li>
           <li>- Mathematics/Physics simulation</li>
         </ul>
       </CompetencyItemContainer>
     </div>
-    <div class="md:col-span-11">
+    <div class="md:col-span-2">
       <CompetencyItemContainer
         containerBackground="bg-red-100"
         iconBackground="bg-red-300"

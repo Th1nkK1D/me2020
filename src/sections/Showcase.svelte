@@ -40,7 +40,7 @@
     {
       title: 'ELECT: Reconstitution',
       description:
-        'A visualization and articles collection about Thailand constitution',
+        'A visualization and articles collection about Thailand constitutions',
       image: 'recon.png',
       link: 'https://recon.elect.in.th/',
     },

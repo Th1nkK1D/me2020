@@ -9,7 +9,7 @@
   const works = [
     {
       title: 'Punch Up',
-      subtitle: 'Frontend Developer',
+      subtitle: 'Full-stack Developer',
       description: 'Nov 2020 - Now',
       image: 'punchup.png',
       link: 'https://punchup.world/',
@@ -23,28 +23,28 @@
     },
     {
       title: 'Boonme Lab',
-      subtitle: 'Freelance',
+      subtitle: 'Freelance Developer',
       description: 'Apr - Jun 2019',
       image: 'boonmelab.png',
       link: 'https://www.boonmeelab.com',
     },
     {
       title: 'H-Lab Consulting',
-      subtitle: 'Freelance',
+      subtitle: 'Freelance Developer',
       description: 'Aug 2017 - Nov 2018',
       image: 'hlab.png',
       link: 'https://www.hlabconsulting.com',
     },
     {
       title: 'Wongnai Media',
-      subtitle: 'Intern',
+      subtitle: 'Developer Intern',
       description: 'Jun - Aug 2018',
       image: 'wongnai.png',
       link: 'https://www.wongnai.com"',
     },
     {
       title: 'ActiMotive',
-      subtitle: 'Freelance',
+      subtitle: 'Freelance Developer',
       description: 'Jul 2017 - May 2018',
       image: 'actimotive.png',
       link: 'https://www.acti-motive.com',

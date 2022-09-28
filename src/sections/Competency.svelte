@@ -48,8 +48,8 @@
         <span slot="heading">Related Experiences</span>
         <ul slot="content" class="space-y-1">
           <li>- Agile, CI/CD and TDD</li>
-          <li>- Mobile application with React Native</li>
-          <li>- Docker and Docker Compose</li>
+          <li>- Mobile app with Ionic & React Native</li>
+          <li>- Docker, Cloud, and Serverless</li>
           <li>- Game design & development</li>
           <li>- UI designing and prototyping</li>
           <li>- AI & Machine learning</li>
@@ -67,10 +67,10 @@
         </span>
         <span slot="heading">Interests</span>
         <span slot="content">
-          Technology, Interactive Art, Physics, Environment and Social Justice
+          Technology, Dat Visulization, Interactive Art, Physics, Environment,
+          Open Society, and Social Justice
         </span>
       </CompetencyItemContainer>
     </div>
-
   </div>
 </section>

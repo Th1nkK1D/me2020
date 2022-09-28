@@ -9,8 +9,15 @@
   const works = [
     {
       title: 'Punch Up',
+      subtitle: 'Technical Lead',
+      description: 'June 2022 - Now',
+      image: 'punchup.png',
+      link: 'https://punchup.world/',
+    },
+    {
+      title: 'Punch Up',
       subtitle: 'Full-stack Developer',
-      description: 'Nov 2020 - Now',
+      description: 'Nov 2020 - June 2022',
       image: 'punchup.png',
       link: 'https://punchup.world/',
     },

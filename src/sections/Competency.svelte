@@ -67,8 +67,8 @@
         </span>
         <span slot="heading">Interests</span>
         <span slot="content">
-          Technology, Dat Visulization, Interactive Art, Physics, Environment,
-          Open Society, and Social Justice
+          Technology, Data Visualization, Interactive Art, Open Society,
+          Democrary, Physics, and Environment
         </span>
       </CompetencyItemContainer>
     </div>

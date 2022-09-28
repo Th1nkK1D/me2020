@@ -34,8 +34,9 @@
         impact.
       </p>
       <button
-        on:click={scrollDown}
+        on:click="{scrollDown}"
         class="text-gray-400 hover:text-gray-600 mx-auto md:ml-0"
+        aria-label="Scroll down"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -48,8 +49,8 @@
           stroke-linecap="round"
           stroke-linejoin="round"
         >
-          <line x1="12" y1="5" x2="12" y2="19" />
-          <polyline points="19 12 12 19 5 12" />
+          <line x1="12" y1="5" x2="12" y2="19"></line>
+          <polyline points="19 12 12 19 5 12"></polyline>
         </svg>
       </button>
     </div>

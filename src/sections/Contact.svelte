@@ -7,7 +7,7 @@
   import LinkedinIcon from '../icons/LinkedinIcon.svelte'
 </script>
 
-<section class="text-center py-12 md:py-18">
+<section class="text-center pt-12 md:pt-18">
   <Heading2 isCentered>Contact Me</Heading2>
   <div class="flex flex-col space-y-4">
     <a href="tel:+37258344505">(+372) 5834 4505</a>

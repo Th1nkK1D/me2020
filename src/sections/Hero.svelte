@@ -1,6 +1,11 @@
 <script lang="ts">
+  import { onMount } from 'svelte'
+  import smoothscroll from 'smoothscroll-polyfill'
+
   import AnimatedAvatar from '../components/AnimatedAvatar.svelte'
   import Heading1 from '../typography/Heading1.svelte'
+
+  onMount(() => smoothscroll.polyfill())
 
   const scrollDown = () => {
     window.scrollTo({
@@ -29,7 +34,7 @@
         impact.
       </p>
       <button
-        on:click="{scrollDown}"
+        on:click={scrollDown}
         class="text-gray-400 hover:text-gray-600 mx-auto md:ml-0"
       >
         <svg
@@ -43,8 +48,8 @@
           stroke-linecap="round"
           stroke-linejoin="round"
         >
-          <line x1="12" y1="5" x2="12" y2="19"></line>
-          <polyline points="19 12 12 19 5 12"></polyline>
+          <line x1="12" y1="5" x2="12" y2="19" />
+          <polyline points="19 12 12 19 5 12" />
         </svg>
       </button>
     </div>

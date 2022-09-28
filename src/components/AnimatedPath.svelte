@@ -1,5 +1,5 @@
 <script lang="ts">
-  import anime from 'animejs/lib/anime.es.js'
+  import anime from 'animejs'
   import { onMount } from 'svelte'
 
   export let duration: number
@@ -7,7 +7,7 @@
   export let endValue: string
   export let fill: string
 
-  let path
+  let path: SVGPathElement
 
   onMount(() => {
     anime({
@@ -21,4 +21,4 @@
   })
 </script>
 
-<path bind:this="{path}" {fill} d="{startValue}"></path>
+<path bind:this={path} {fill} d={startValue} />

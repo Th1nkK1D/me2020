@@ -1,4 +1,4 @@
-name: Deploy to staging
+name: Deploy
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
       - 'README.md'
 
 concurrency:
-  group: staging_environment
+  group: deploy
   cancel-in-progress: true
 
 jobs:

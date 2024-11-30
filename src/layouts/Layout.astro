@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
+  <head>
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
 
     <title>Withee Poositasai</title>
@@ -19,11 +19,19 @@
       rel="stylesheet"
     />
 
-    <script async defer src="https://nullitics.com/script.js"></script>
-  
-		<meta name="generator" content={Astro.generator} />
-	</head>
-	<body>
-		<slot />
-	</body>
+    {
+      import.meta.env.PROD && (
+        <script
+          defer
+          src="https://cloud.umami.is/script.js"
+          data-website-id="a9f579e6-1232-4ef2-a4c6-a22ed6a6a232"
+        />
+      )
+    }
+
+    <meta name="generator" content={Astro.generator} />
+  </head>
+  <body>
+    <slot />
+  </body>
 </html>

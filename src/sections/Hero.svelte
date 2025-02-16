@@ -1,11 +1,6 @@
 <script lang="ts">
-  import { onMount } from 'svelte'
-  import smoothscroll from 'smoothscroll-polyfill'
-
   import AnimatedAvatar from '../components/AnimatedAvatar.svelte'
   import Heading1 from '../typography/Heading1.svelte'
-
-  onMount(() => smoothscroll.polyfill())
 
   const scrollDown = () => {
     window.scrollTo({
@@ -39,7 +34,6 @@
         aria-label="Scroll down"
       >
         <svg
-          xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
           viewBox="0 0 24 24"

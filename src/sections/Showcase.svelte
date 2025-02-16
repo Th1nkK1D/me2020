@@ -19,7 +19,7 @@
     {
       title: 'CONstitution LAB',
       description:
-        'Interactive quizes helping Thai citizens to understand and design the constitution',
+        'Interactive quizzes helping Thai citizens to understand and design the constitution',
       image: 'conlab.webp',
       link: 'https://conlab.conlabth.com',
     },

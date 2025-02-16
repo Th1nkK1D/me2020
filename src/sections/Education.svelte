@@ -2,15 +2,11 @@
   import Heading2 from '../typography/Heading2.svelte'
   import TileWithImage from '../components/TileWithImage.svelte'
 
-  const EXPERIENCE_START_YEAR = 2018
-  const yearsOfTotalExperiences =
-    new Date().getFullYear() - EXPERIENCE_START_YEAR
-
   const educations = [
     {
       title: `Open Society Technologies (Master)`,
       subtitle: 'Tallinn University, Estonia',
-      description: '2021 - Now',
+      description: '2021 - 2023',
       image: 'tlu.webp',
       link: 'https://www.tlu.ee/en/open-society-technologies',
     },

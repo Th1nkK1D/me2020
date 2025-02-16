@@ -10,10 +10,9 @@
 <section class="text-center pt-12 md:pt-18">
   <Heading2 isCentered>Contact Me</Heading2>
   <div class="flex flex-col space-y-4">
-    <a href="tel:+37258344505">(+372) 5834 4505</a>
 
     <a href="mailto:witheep@gmail.com">witheep@gmail.com</a>
-    <p>Born in Bangkok, Studying in Tallinn</p>
+    <p>Based in Bangkok, love to travel the world.</p>
   </div>
   <div class="flex flex-row space-x-4 justify-center mt-10">
     <SocialLink link="https://github.com/Th1nkK1D/" alt="Github">

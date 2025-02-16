@@ -1,5 +1,6 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import '../index.css'
+import Layout from '../layouts/Layout.astro'
 import WebringLink from '../sections/WebringLink.svelte'
 import Hero from '../sections/Hero.svelte'
 import Competency from '../sections/Competency.svelte'
@@ -11,16 +12,16 @@ import Education from '../sections/Education.svelte'
 ---
 
 <Layout>
-	<main class="max-w-screen-lg mx-auto px-3 font-body">
-		<Hero client:load />
-		<div class=" space-y-24 md:space-y-32">
-			<Competency />
-			<WorkExperience />
-			<Education />
-			<Showcase />
-			<Contact />
-			<WebringLink />
-			<Footer />
-		</div>
-	</main>	
+  <main class="max-w-(--breakpoint-lg) mx-auto px-3 font-body">
+    <Hero client:load />
+    <div class="space-y-24 md:space-y-32">
+      <Competency />
+      <WorkExperience />
+      <Education />
+      <Showcase />
+      <Contact />
+      <WebringLink />
+      <Footer />
+    </div>
+  </main>
 </Layout>

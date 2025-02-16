@@ -18,22 +18,20 @@
           <AwardIcon />
         </span>
         <span slot="heading">Main Expertise</span>
-        <ul slot="content" class="space-y-2">
+        <ul slot="content" class="space-y-2 list-disc">
           <li>
-            -
-            <strong>Responsive Website</strong>
-            using Svelte, React and Vue (TS/JS)
+            <strong>Front-end development</strong>
+            using Svelte, React, and Vue with TypeScript
           </li>
           <li>
-            -
-            <strong>Data Visualization and Animation</strong>
-            using CSS, SVG, Canvas, D3.js and ThreeJS
+            <strong>Data wrangling and visualization</strong>
+            using R, D3.js, and ThreeJS
           </li>
           <li>
-            -
-            <strong>Backend Service</strong>
-            with NodeJS and Cloud architecture
+            <strong>Back-end and devOps</strong>
+            with NodeJS, Bun, Docker, and cloud services
           </li>
+          <li><strong>Team leading</strong> eg. project initiative, task management, coaching, and consulting</li>
         </ul>
       </CompetencyItemContainer>
     </div>
@@ -46,14 +44,13 @@
           <BookIcon />
         </span>
         <span slot="heading">Related Experiences</span>
-        <ul slot="content" class="space-y-1">
-          <li>- Agile, CI/CD and TDD</li>
-          <li>- Mobile app with Ionic & React Native</li>
-          <li>- Docker, Cloud, and Serverless</li>
-          <li>- Game design & development</li>
-          <li>- UI designing and prototyping</li>
-          <li>- AI & Machine learning</li>
-          <li>- Mathematics/Physics simulation</li>
+        <ul slot="content" class="space-y-1 list-disc">
+          <li>Agile, TDD and pair-programming</li>
+          <li>Mobile app with Ionic / React Native</li>
+          <li>UI designing and prototyping</li>
+          <li>AI & Machine learning</li>
+          <li>Mathematics / Physics simulation</li>
+          <li>Game design & development</li>
         </ul>
       </CompetencyItemContainer>
     </div>

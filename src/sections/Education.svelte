@@ -11,14 +11,14 @@
       title: `Open Society Technologies (Master)`,
       subtitle: 'Tallinn University, Estonia',
       description: '2021 - Now',
-      image: 'tlu.png',
+      image: 'tlu.webp',
       link: 'https://www.tlu.ee/en/open-society-technologies',
     },
     {
       title: 'Computer Engineering (Bachelor)',
       subtitle: 'KMUTT, Thailand',
       description: '2015 - 2018',
-      image: 'kmutt.jpeg',
+      image: 'kmutt.webp',
       link: 'https://www.cpe.kmutt.ac.th/en/index',
     },
   ]

@@ -12,7 +12,7 @@
   <div class="flex flex-col space-y-4">
 
     <a href="mailto:witheep@gmail.com">witheep@gmail.com</a>
-    <p>Based in Bangkok, love to travel the world.</p>
+    <p>Base in Bangkok, love to travel the world.</p>
   </div>
   <div class="flex flex-row space-x-4 justify-center mt-10">
     <SocialLink link="https://github.com/Th1nkK1D/" alt="Github">

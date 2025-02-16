@@ -4,24 +4,31 @@
 
   const showcaseItems = [
     {
+      title: 'OrdinaryUnfold',
+      description:
+        'My solo hobby project for visualization and storytelling experiments',
+      image: 'ordinaryunfold.webp',
+      link: 'https://www.ordinaryunfold.com',
+    },
+    {
+      title: 'Sheethuahua',
+      description:
+        'Type-safe CSV and Google Sheets parser library for TypeScript and JavaScript',
+      image: 'sheethuahua.webp',
+      link: 'https://punchupworld.github.io/sheethuahua/',
+    },
+    {
       title: 'BKK Election 2022',
       description: 'Bangkok election data visualization and information hub',
       image: 'bkkelection.webp',
       link: 'https://bkkelection2022.wevis.info',
     },
     {
-      title: 'OrdinaryUnfold',
+      title: 'WeVis: Reconstitution',
       description:
-        'My solo hobby project for visualization and storytelling experiments',
-      image: 'ordinary-unfold.webp',
-      link: 'https://www.ordinaryunfold.com',
-    },
-    {
-      title: 'CONstitution LAB',
-      description:
-        'Interactive quizzes helping Thai citizens to understand and design the constitution',
-      image: 'conlab.webp',
-      link: 'https://conlab.conlabth.com',
+        'A visualization and articles collection about Thailand constitutions',
+      image: 'recon.webp',
+      link: 'https://reconstitution.wevis.info',
     },
     {
       title: '112 Story',
@@ -41,13 +48,6 @@
       description: 'A visualization about Thai civil movements in 2020',
       image: 'civil-movements.webp',
       link: 'https://elect.in.th/civil-movement-2020',
-    },
-    {
-      title: 'ELECT: Reconstitution',
-      description:
-        'A visualization and articles collection about Thailand constitutions',
-      image: 'recon.webp',
-      link: 'https://recon.elect.in.th',
     },
     {
       title: 'The Monument Garden',
